@@ -17,6 +17,8 @@
    //dress
       var dress1 = new Image()
     dress1.src = "css/images/hat/hat1.png"
+    dress1.width = 120
+    dress1.height = 120
     let x1 = myCanvasId.width / 7
     let y1 = myCanvasId.height / 7
     let dx = 0
