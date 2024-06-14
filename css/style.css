@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    background-image: url('images/BackgroundEntrans/bg2.jpg');
+    background-size: cover;
+}
+.choose-clothes {
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-flow: column;
+    background-image: url('images/BackgroundEntrans/piratebg.jpg');
+    background-position: center;
+    background-size: cover;
+    place-items: center center;
+   
+}
+.choose-clothes img {
+    width: 120px;
+    height: 120px;
+    
+}
+.for-Finish {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+.btn {
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #000;
+    border-radius: 15px;
+    color: #000;
+    transition: 1s ease-in-out;
+    margin: 10px;
+}
+.bt1 {
+    display: block;
+}
+.bt2 {
+    display: none;
+}
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+.dresses {
+    width: 90%;
+    height: 300px;
+    margin-top: 20px;
+}
+.shade {
+    width: 90%;
+    height: auto;
+}
+.hat {
+    width: 90%;
+    height: auto;
+}
+.choosePerson {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 640px;
+    display: flex;
+    flex-flow: column;
+    background-image: url('images/BackgroundEntrans/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: 1s ease-in-out;
+    opacity: 1;
+    place-items: center center;
+}
+.ChooseTitle {
+    width: auto;
+    height: auto;
+    margin: 20px;
+    position: relative;
+    transition: 1s ease-in-out;
+    opacity: 0;
+}
+.ChooseTitle h1 {
+    font-size: 40px;
+    color: #fff;
+}
+.ChooseTitle span {
+    position: absolute;
+    height: 5px;
+    background-color: #fff;
+    right: 300px;
+    left: 300px;
+    bottom: 0;
+    transition: 1s ease-in-out;
+}
+.imgChoose {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    position: relative;
+}
+
+.imgChoose img{
+    filter: blur(5px);
+    transition: 1s ease-in-out;
+    transform: translateY(500px); 
+    opacity: 0;
+    box-shadow: 0px 50px 100px #000;
+    border: 5px solid #000;
+}
+.entrans {
+    width: 100%;
+    height: 640px;
+    position: fixed;
+    z-index: 3;
+    background-image: url('images/BackgroundEntrans/images.jpeg');
+    background-position: center top;
+    background-size: cover;
+    transform: scale(1);
+    opacity: 1;
+    transition: 1s ease-in-out;
+    display: grid;
+    place-items: center center;
+}
+.entrans h1{
+    font-size: 34px;
+    color: #fff;
+    text-shadow: 5px 5px 10px #000;
+    opacity: 1;
+    transition: 5s ease-in-out;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Fashion</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="entrans" id="tapScreen">
+            <h1 id="title">Tap The Screen</h1>
+        </div>
+        
+        
+        
+       <div class="choosePerson" id="choosePerson">
+           
+           <div class="ChooseTitle" id="ChooseTitle">
+            <h1>Choose Person <span id="vectorEffect"></span></h1>
+        </div>
+        
+           <div class="imgChoose">
+               
+           <img src="css/images/person/person1.png" alt="person1" onclick="firstPerson()" id="person1">
+           <img src="css/images/person/person2.png" alt="person2" onclick="secondPerson()" id="person2">
+           </div>
+       </div>
+       
+         <div class="choose-clothes">
+             
+             <div class="dresses">
+                 <!-- Dresses -->
+             <img src="css/images/dress/dress1.png" alt="dress1" onclick="addImg1()">
+             <img src="css/images/dress/dress2.png" alt="dress2" onclick="addImg2()">
+             <img src="css/images/dress/dress3.png" alt="dress3" onclick="addImg3()">
+             <img src="css/images/dress/dress4.png" alt="dress4" onclick="addImg4()">
+             <img src="css/images/dress/dress5.png" alt="dress5" onclick="addImg5()">
+             <img src="css/images/dress/dress6.png" alt="dress6" onclick="addImg6()">
+             <img src="css/images/dress/dress7.png" alt="dress7" onclick="addImg7()">
+             <img src="css/images/dress/dress8.png" alt="dress8" onclick="addImg8()">
+             </div>
+             
+             <div class="shade">
+                 <!-- Shades -->
+             <img src="css/images/shade/shade1.png" alt="shade1" onclick="addImg9()">
+             <img src="css/images/shade/shade2.png" alt="shade2" onclick="addImg10()">
+             </div>
+             
+             <div class="hat">
+                 <!-- Hats -->
+             <img src="css/images/hat/hat1.png" alt="hat1" onclick="addImg11()">
+             <img src="css/images/hat/hat2.png" alt="hat2" onclick="addImg12()">
+             <img src="css/images/hat/hat3.png" alt="hat3" onclick="addImg13()">
+             </div>
+             
+             <div class="for-Finish">
+                 <button class="btn bt1" id="bt1" onclick="stopDragging()">Finalize</button>
+                 <button class="btn bt2" id="bt2" onclick="printPng()">Convert to PNG</button>
+             </div>
+             
+             
+         </div>
+         
+         
+        <canvas id="myCanvas" width="500" height="500">
+    </canvas>
+    
+</div>
+    
+</body>
+    <!-- Hidden Value -->
+
+<input type="hidden" id="hidden1" value="open">
+
+<input type="hidden" id="hidden2" value="open">
+
+<input type="hidden" id="hidden3" value="open">
+
+    <!-- Functions -->
+
+<script src="script/script.js"></script>
+
+<!-- For  Person -->
+
+<script src="script/person/person1/script.js"></script>
+
+<script src="script/person/person2/script.js"></script>
+
+
+<!-- Dress -->
+<script src="script/dress/dress1/script.js"></script>
+
+<script src="script/dress/dress2/script.js"></script>
+
+<script src="script/dress/dress3/script.js"></script>
+
+<script src="script/dress/dress4/script.js"></script>
+
+<script src="script/dress/dress5/script.js"></script>
+
+<script src="script/dress/dress6/script.js"></script>
+
+<script src="script/dress/dress7/script.js"></script>
+
+<script src="script/dress/dress8/script.js"></script>
+
+
+<!-- Shades -->
+
+<script src="script/shade/shade1/script.js"></script>
+
+<script src="script/shade/shade2/script.js"></script>
+
+
+<!-- Hats -->
+<script src="script/hat/hat1/script.js"></script>
+
+<script src="script/hat/hat2/script.js"></script>
+
+<script src="script/hat/hat3/script.js"></script>
+
+</html>
